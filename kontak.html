@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kontak</title>
+  </head>
+  <body>
+    <hr color="blue" size=3 width=50% align="left"><font size= 4 color="red"><a 
+        href="pertemuan5.html">Home</a> | <a href="profil.html">Profil</a> | <a href="about.html">About</a> | <a href="galery.html">Gallery</a> | <a href="kontak.html">Kontak</a></font>
+        <hr color="blue" size=3 width=50% align="left">
+    <!-- Contact -->
+    <div >
+        <h1>Kontak Saya</h1>
+
+        <div>
+          <label for="name">Name</label>
+          <input type="text" id="name" required />
+        </div>
+
+        <div>
+          <label for="email">Email</label>
+          <input type="email" id="email" required />
+        </div>
+
+        <div>
+          <label for="phone-number">Phone</label>
+          <input type="number" id="phone-number" />
+        </div>
+
+        <div>
+          <label for="pilihan">Subject</label>
+          <select id="pilihan">
+            <option value="" hidden>Select</option>
+            <option>Frontend</option>
+            <option>Backend</option>
+            <option>Fullstack</option>
+          </select>
+        </div>
+
+        <div>
+          <label for="massage">Your Massage</label>
+          <textarea id="massage" cols="30" rows="10" maxlength="100"></textarea>
+        </div>
+
+        <div >
+          <button>Submit</button>
+        </div>
+    </div>
+  </body>
+</html>
